@@ -1,0 +1,21 @@
+{
+  "participants": {
+    "tau2-baseline-gpt4o": "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
+  },
+  "results": [
+    {
+      "domain": "hospitality",
+      "score": 3.0,
+      "max_score": 5,
+      "pass_rate": 60.0,
+      "task_rewards": {
+        "hospitality_001_birthday_empathy": 1.0,
+        "hospitality_003_sms_trap": 0,
+        "hospitality_004_holiday_logic": 0,
+        "hospitality_007_hidden_allergy": 1.0,
+        "hospitality_009_melted_cake": 1.0
+      },
+      "time_used": 255.89951729774475
+    }
+  ]
+}
