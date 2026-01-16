@@ -11,3 +11,4 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 domain = "hospitality"
 max_steps = 100
 
+# trigger
