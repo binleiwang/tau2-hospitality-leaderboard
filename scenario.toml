@@ -10,3 +10,4 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 [config]
 domain = "hospitality"
 max_steps = 100
+
