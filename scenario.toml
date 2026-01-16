@@ -4,7 +4,7 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
-name = "tau2-baseline-gpt4o"
+name = "agent"  # Must be "agent" to match leaderboard query: results.participants.agent
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
@@ -20,3 +20,4 @@ num_tasks = 5
 # all params
 # curl fix
 # agentbeats format
+# fresh run with name=agent
