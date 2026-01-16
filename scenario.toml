@@ -9,7 +9,8 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
 domain = "hospitality"
-max_steps = 100
+max_steps = 30
+num_tasks = 2
 
 # trigger
 # fixed
