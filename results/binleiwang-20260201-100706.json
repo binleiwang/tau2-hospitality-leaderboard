@@ -1,0 +1,18 @@
+{
+  "participants": {
+    "o3": "019c185a-22a9-7ab0-b0bf-289dd069b3e4"
+  },
+  "results": [
+    {
+      "agent": "o3",
+      "domain": "hospitality",
+      "score": 0.0,
+      "max_score": 1,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "hospitality_001_birthday_empathy": 0.0
+      },
+      "time_used": 21.554863691329956
+    }
+  ]
+}
