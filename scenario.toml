@@ -6,13 +6,13 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", ANTHROPIC_API_KEY = "${ANTHROPIC_A
 [[participants]]
 agentbeats_id = "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
 name = "o4-mini"
-env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_MODEL = "openai/gpt-4o-mini" }
 
 # o3
 [[participants]]
 agentbeats_id = "019c185a-22a9-7ab0-b0bf-289dd069b3e4"
 name = "o3"
-env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_MODEL = "openai/o3" }
 
 [config]
 domain = "hospitality"
