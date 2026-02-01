@@ -1,0 +1,18 @@
+{
+  "participants": {
+    "agent": "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
+  },
+  "results": [
+    {
+      "agent": "agent",
+      "domain": "hospitality",
+      "score": 0.0,
+      "max_score": 1,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "hospitality_001_birthday_empathy": 0.0
+      },
+      "time_used": 45.8999457359314
+    }
+  ]
+}
