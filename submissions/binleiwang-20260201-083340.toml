@@ -1,0 +1,23 @@
+[green_agent]
+agentbeats_id = "019bc5a9-3d03-7553-985f-ea34c0123801"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
+
+[[participants]]
+agentbeats_id = "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
+name = "agent"  # Must be "agent" to match leaderboard query: results.participants.agent
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
+
+[config]
+domain = "hospitality"
+max_steps = 20
+num_tasks = 1
+
+# trigger
+# fixed
+# v2 images
+# entrypoint fix
+# white cmd fix
+# all params
+# curl fix
+# agentbeats format
+# amd64 rebuild
