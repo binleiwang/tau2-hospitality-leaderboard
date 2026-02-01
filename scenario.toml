@@ -2,10 +2,17 @@
 agentbeats_id = "019bc5a9-3d03-7553-985f-ea34c0123801"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", ANTHROPIC_API_KEY = "${ANTHROPIC_API_KEY}", LOG_LEVEL = "INFO" }
 
+# o4-mini
 [[participants]]
 agentbeats_id = "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
-name = "agent"
-env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", ANTHROPIC_API_KEY = "${ANTHROPIC_API_KEY}" }
+name = "o4-mini"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
+
+# o3
+[[participants]]
+agentbeats_id = "019c185a-22a9-7ab0-b0bf-289dd069b3e4"
+name = "o3"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
 domain = "hospitality"
