@@ -8,11 +8,11 @@ agentbeats_id = "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
 name = "o4-mini"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_MODEL = "openai/gpt-4o-mini" }
 
-# o3
+# gpt-4o
 [[participants]]
 agentbeats_id = "019c185a-22a9-7ab0-b0bf-289dd069b3e4"
-name = "o3"
-env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_MODEL = "openai/o3" }
+name = "gpt-4o"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_MODEL = "openai/gpt-4o" }
 
 [config]
 domain = "hospitality"
