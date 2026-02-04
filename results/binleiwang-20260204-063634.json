@@ -1,0 +1,20 @@
+{
+  "participants": {
+    "o4-mini": "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
+  },
+  "results": [
+    {
+      "agent": "o4-mini",
+      "domain": "hospitality",
+      "score": 1.0,
+      "max_score": 3,
+      "pass_rate": 33.33333333333333,
+      "task_rewards": {
+        "hospitality_001_birthday_empathy": 0.0,
+        "hospitality_003_sms_trap": 0.0,
+        "hospitality_004_holiday_logic": 1.0
+      },
+      "time_used": 109.78312301635742
+    }
+  ]
+}
