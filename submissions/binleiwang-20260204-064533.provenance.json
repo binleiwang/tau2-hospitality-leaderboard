@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/binleiwang/tau2-hospitality@sha256:ccf6256a63ea5d8f685f72bc7a24342872faef84b7156c8780fabcea5dd173cf",
+    "gpt-4o": "ghcr.io/binleiwang/tau2-white-agent@sha256:040efdaf8a3ef70012f12185af3001fc9dae5245035a6dd82876173c10d290dd",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-04T06:45:33Z",
+  "github_actions": {
+    "run_url": "https://github.com/binleiwang/tau2-hospitality-leaderboard/actions/runs/21661396593",
+    "run_logs_url": "https://api.github.com/repos/binleiwang/tau2-hospitality-leaderboard/actions/runs/21661396593/logs",
+    "ref": "refs/heads/run-assessment",
+    "sha": "48a37998f30d8c675bf565baf11831804b4f263f",
+    "repository_url": "https://github.com/binleiwang/tau2-hospitality-leaderboard",
+    "workflow_ref": "binleiwang/tau2-hospitality-leaderboard/.github/workflows/run-scenario.yml@refs/heads/run-assessment",
+    "workflow_sha": "48a37998f30d8c675bf565baf11831804b4f263f"
+  }
+}
