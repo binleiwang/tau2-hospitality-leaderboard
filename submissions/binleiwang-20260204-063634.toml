@@ -1,0 +1,15 @@
+[green_agent]
+agentbeats_id = "019bc5a9-3d03-7553-985f-ea34c0123801"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", ANTHROPIC_API_KEY = "${ANTHROPIC_API_KEY}", LOG_LEVEL = "INFO" }
+
+# 1. o4-mini (Run 1 of 3)
+[[participants]]
+agentbeats_id = "019bc5eb-d64b-7083-8fc7-eb44d59786f0"
+name = "o4-mini"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_MODEL = "openai/gpt-4o-mini" }
+
+[config]
+domain = "hospitality"
+max_steps = 20
+num_tasks = 3
+agent_llm = "anthropic/claude-3-5-sonnet-20241022"
